@@ -1,0 +1,39 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.date-location {
+    font-size: 18px;
+    color: gold;
+}
+
+.star-map img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    animation: fadeIn 2s ease-in-out;
+    margin:20px;
+    padding:20px;
+}
+
+.message-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
